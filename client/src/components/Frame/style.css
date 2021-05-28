@@ -1,0 +1,11 @@
+.frame {
+    border: black 1px solid;
+    width: 100px;
+    height: 100px;
+}
+
+input {
+    border: none;
+    width: 40px;
+    display: inline;
+}
