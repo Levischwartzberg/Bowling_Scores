@@ -124,6 +124,7 @@ function Scorecard(props) {
 							}
 						}
 					}
+					//9th frame strike logic
 					else if (index === 8) {
 						if (isNaN(nextRoll)) {
 							if (scores[index+1][0] === "-") {
@@ -152,6 +153,7 @@ function Scorecard(props) {
 						frames[index] = frames[index-1] + 10 + nextRoll + nextNextRoll;
 					} 
 				}
+				//no marks logic
 				else if (typeof(roll2) === "number") {
 					if (index === 0) {
 						frames[index] = roll1 + roll2;
@@ -161,6 +163,7 @@ function Scorecard(props) {
 					}
 				}
 			}
+			//10th frame logic
 			else {
 				let roll1 = frame[0];
 				let roll2 = frame[1];
