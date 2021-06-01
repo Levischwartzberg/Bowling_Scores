@@ -5,12 +5,14 @@
     display: inline-block;
 }
 
-select {
+.bowlingFrame select {
     width: 50%;
     height: 40%;
     display: inline;
     text-align-last: center;
     -webkit-appearance: none;
+    border-radius: 0px;
+    border-right: 0px;
 }
 
 p {

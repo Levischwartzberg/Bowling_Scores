@@ -5,7 +5,10 @@
     display: inline-block;
 }
 
-.finalFrame select {
-    width: 33%;
+.finalFrame > select {
+    height: 40%;
+    width: 33.3333333%;
     display: inline;
+    text-align-last: center;
+    -webkit-appearance: none;
 }
