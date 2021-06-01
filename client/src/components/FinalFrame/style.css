@@ -1,7 +1,8 @@
 .frame {
     border: black 1px solid;
-    width: 150px;
-    height: 100px;
+    width: 100px;
+    height: 75px;
+    display: inline-block;
 }
 
 input {
