@@ -1,12 +1,11 @@
-.frame {
+.finalFrame {
     border: black 1px solid;
-    width: 100px;
-    height: 75px;
+    width: 120px;
+    height: 80px;
     display: inline-block;
 }
 
-input {
-    border: none;
-    width: 40px;
+.finalFrame select {
+    width: 33%;
     display: inline;
 }

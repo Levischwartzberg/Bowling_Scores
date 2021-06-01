@@ -1,12 +1,19 @@
 .bowlingFrame {
     border: black 1px solid;
-    width: 75px;
-    height: 75px;
+    width: 80px;
+    height: 80px;
     display: inline-block;
 }
 
-input {
-    border: none;
-    width: 40px;
+select {
+    width: 50%;
+    height: 40%;
     display: inline;
+    text-align-last: center;
+    -webkit-appearance: none;
+}
+
+p {
+    text-align: right;
+    padding-right: 10px;
 }

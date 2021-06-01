@@ -30,7 +30,7 @@ function Frame(props) {
 	}, [score1, score2, score3]);
 
 	return (
-		<div className="frame">
+		<div className="finalFrame">
             <select onChange={handleInput1Change} placeholder={score1} value={score1} type="select" name="roll-1" >
                 <option>  </option>
                 <option> - </option>
