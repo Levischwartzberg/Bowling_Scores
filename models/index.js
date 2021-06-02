@@ -1,3 +1,3 @@
 module.exports = {
-  Score: require("./score")
+  Player: require("./player")
 };
